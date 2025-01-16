@@ -1,36 +1,52 @@
 body {
     font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%; /* Asegura que el contenido ocupe todo el alto de la ventana */
-    margin: 0;
     background-color: #f0f0f0;
+    
 }
 
-.container {
+#container {
+    width: 1100 px;
     text-align: center;
-    padding: 40px;
+    padding: 0 px;
+    margin: 0 px;
+    /*border: 1px solid black;*/
+}
+
+#container_articles{
+    width: calc(90%-20%);
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: 0px;
+    /*border: 1px solid black;*/
+}
+
+header {
+    padding: 20px;
     background-color: red;
-    margin: 0;
+    margin: 20px;
+    
 }
 
-/* Estilo para .title */
-.title {
-    width: auto; /* Deja que el contenedor ocupe solo el espacio necesario */
-    max-width: 1000px; /* Límite máximo para evitar que se estire demasiado */
-    margin: 0 auto; /* Centra el contenedor horizontalmente */
+article {
+
+    padding: 20px;
+    background-color: red;
+    margin: 30px;
+    
+    
 }
 
-/* Estilo para el encabezado */
+
+
 h1 {
-    font-size: 3em; /* Aumenta el tamaño del texto */
+    font-size: 3em; 
     margin-bottom: 20px;
 }
 
 /* Estilo para el id hora */
 #hora {
-    font-size: 3em;
+    font-size: 10px ;
     font-weight: bold;
-    color: white;
+    color: gray;
 }
