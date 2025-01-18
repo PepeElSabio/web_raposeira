@@ -1,5 +1,4 @@
 
-
 @font-face {
     font-family: 'DummyDaze';
     src: url(Fuentes/DummyDaze.ttf) format('truetype');
@@ -9,7 +8,12 @@
 
 body {
     font-family: 'DummyDaze', Arial, sans-serif ;
-    background-color: #f0f0f0;
+    background-color: #ffe2ef;
+    opacity: 0.8;
+    background-image:  linear-gradient(135deg, #feaed2 25%, transparent 25%), linear-gradient(225deg, #feaed2 25%, transparent 25%), linear-gradient(45deg, #feaed2 25%, transparent 25%), linear-gradient(315deg, #feaed2 25%, #ffe2ef 25%);
+    background-position:  10px 0, 10px 0, 0 0, 0 0;
+    background-size: 10px 10px;
+    background-repeat: repeat;
     display: flex;
     align-content: center;
     justify-content: center;
@@ -20,10 +24,13 @@ body {
     text-align: center;
     padding: 0 px;
     margin: 0 px;
+    background-color: #ffb7d7;
+    border-radius: 2%;
     /*border: 1px solid black;*/
 }
 
 #container_articles{
+    
     width: calc(90%-20%);
     text-align: center;
     padding-left: 10%;
@@ -33,7 +40,8 @@ body {
 }
 
 header {
-    
+    border-radius: 20px;
+    color:white;
     padding: 20px ;
     width: calc(100%-20px);
     background-color: #ff0072;
@@ -42,6 +50,8 @@ header {
 }
 
 article {
+    color:white;
+    border-radius: 20px;
     font-family: 'DummyDaze', Arial, sans-serif ;
     padding: 20px;
     background-color: #ff0072;
@@ -51,7 +61,7 @@ article {
 }
 
 a {
-    color: black;
+    color: white;
 
     text-decoration: none;
    
@@ -60,7 +70,7 @@ a {
 
 
 a:visited {
-    color: black;
+    color: white;
 }
   
 a:focus {
