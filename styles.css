@@ -1,11 +1,25 @@
+@font-face {
+    font-family: 'PeterObscure';
+    src: url(Fuentes/PeterObscure.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'DenseRegular';
+    src: url(Fuentes\Dense-Regular.otf) format('truetype');
+}
+
+
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'DenseRegular', Arial, sans-serif ;
     background-color: #f0f0f0;
-    
+    display: flex;
+    align-content: center;
+    justify-content: center;
 }
 
 #container {
-    width: 1100 px;
+    width: 1600px;
     text-align: center;
     padding: 0 px;
     margin: 0 px;
@@ -22,8 +36,10 @@ body {
 }
 
 header {
-    padding: 20px;
-    background-color: red;
+    font-family: 'PeterObscure', Arial, sans-serif ;
+    padding: 20px ;
+    width: calc(100%-20px);
+    background-color: #ff0072;
     margin: 20px;
     
 }
@@ -31,12 +47,17 @@ header {
 article {
 
     padding: 20px;
-    background-color: red;
+    background-color: #ff0072;
     margin: 30px;
     
     
 }
 
+a {
+    color: black;
+    
+    
+}
 
 
 h1 {
