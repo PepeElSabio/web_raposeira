@@ -1,17 +1,14 @@
-@font-face {
-    font-family: 'PeterObscure';
-    src: url(Fuentes/PeterObscure.ttf) format('truetype');
-}
+
 
 @font-face {
-    font-family: 'DenseRegular';
-    src: url(Fuentes\Dense-Regular.otf) format('truetype');
+    font-family: 'DummyDaze';
+    src: url(Fuentes/DummyDaze.ttf) format('truetype');
 }
 
 
 
 body {
-    font-family: 'DenseRegular', Arial, sans-serif ;
+    font-family: 'DummyDaze', Arial, sans-serif ;
     background-color: #f0f0f0;
     display: flex;
     align-content: center;
@@ -36,7 +33,7 @@ body {
 }
 
 header {
-    font-family: 'PeterObscure', Arial, sans-serif ;
+    
     padding: 20px ;
     width: calc(100%-20px);
     background-color: #ff0072;
@@ -45,7 +42,7 @@ header {
 }
 
 article {
-
+    font-family: 'DummyDaze', Arial, sans-serif ;
     padding: 20px;
     background-color: #ff0072;
     margin: 30px;
@@ -55,14 +52,43 @@ article {
 
 a {
     color: black;
-    
+
+    text-decoration: none;
+   
     
 }
+
+
+a:visited {
+    color: black;
+}
+  
+a:focus {
+    background:  #ff76b4;
+}
+  
+a:hover {
+    text-decoration-line: underline;
+}
+  
+a:active {
+    text-decoration-line: underline;
+    color:  #ff76b4;
+}
+
+
 
 
 h1 {
     font-size: 3em; 
     margin-bottom: 20px;
+    line-height: 1.4;
+}
+
+h2 {
+    font-size: 3em; 
+    margin-bottom: 20px;
+    line-height: 1.4;
 }
 
 /* Estilo para el id hora */

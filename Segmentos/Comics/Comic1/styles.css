@@ -1,13 +1,13 @@
 @font-face {
-    font-family: 'PeterObscure';
-    src: url(Segmentos\Comics\Comic1\Fuentes\PeterObscure.ttf) format('truetype');
+    font-family: 'DummyDaze';
+    src: url(/Fuentes/DummyDaze.ttf) format('truetype');
 }
 
 
 
 
 body {
-    font-family: 'PeterObscure', Arial, sans-serif ;
+    font-family: 'DummyDaze', Arial, sans-serif ;
     background-color: #f0f0f0;
     display: flex;
     align-content: center;
