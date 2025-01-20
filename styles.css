@@ -15,56 +15,70 @@ body {
     background-size: 10px 10px;
     background-repeat: repeat;
     display: flex;
-    align-content: center;
-    justify-content: center;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
 }
 
 #container {
-    width: 1600px;
+    min-width: 400px;
+    max-width: 1200px;
+    width: 100%;
     text-align: center;
     padding: 0 px;
     margin: 0 px;
     background-color: #ffb7d7;
-    border-radius: 2%;
-    /*border: 1px solid black;*/
+    border-radius: 20px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    /* border: 1px solid black; */
 }
 
-#container_articles{
-    
-    width: calc(90%-20%);
-    text-align: center;
-    padding-left: 10%;
-    padding-right: 10%;
-    margin: 0px;
-    /*border: 1px solid black;*/
+
+.title {
+    color:white;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #ff0072;
 }
 
 header {
-    border-radius: 20px;
-    color:white;
-    padding: 20px ;
-    width: calc(100%-20px);
-    background-color: #ff0072;
-    margin: 20px;
+    width: fit-content;
+    min-width: 80%;
+
+}
+
+
+article {
+    width: fit-content;
+    min-width: 60%;
+   
+
+}
+
+footer
+{   background-color: transparent;
+    width: fit-content;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
     
 }
 
-article {
-    color:white;
-    border-radius: 20px;
-    font-family: 'DummyDaze', Arial, sans-serif ;
-    padding: 20px;
-    background-color: #ff0072;
-    margin: 30px;
-    
-    
-}
 
 a {
     color: white;
+    
 
     text-decoration: none;
-   
+
+    
     
 }
 
@@ -91,19 +105,23 @@ a:active {
 
 h1 {
     font-size: 3em; 
-    margin-bottom: 20px;
-    line-height: 1.4;
+    
+    
 }
 
 h2 {
     font-size: 3em; 
-    margin-bottom: 20px;
-    line-height: 1.4;
+    /* border: 1px solid black; */
+    
+    
+    
 }
 
-/* Estilo para el id hora */
+
 #hora {
+    font-family: 'DummyDaze', Arial, sans-serif ;
     font-size: 10px ;
-    font-weight: bold;
-    color: gray;
+    
+    color: #442131;
+
 }
